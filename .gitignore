@@ -1,0 +1,25 @@
+---
+
+### 🛑 `.gitignore` 
+
+
+```text
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+
+# Arduino/Atmel
+*.elf
+*.eep
+*.lss
+*.map
+
+# Proteus backups
+*.pwi
+*.DBK
+
+# OS specific
+.DS_Store
+Thumbs.db
